@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <Router>
-      <Navbar setLoggedIn={setLoggedIn}/>
+      <Navbar />
       <Footer />
       <Routes>
       </Routes>
@@ -22,7 +22,7 @@ function App() {
 
     <div class="row">
       <div class="column left"><NFTRenderer/></div>
-      <div class="column right"><MintInfo loggedIn={loggedIn}/></div>
+      <div class="column right"><MintInfo/></div>
     </div>
 
     </>
