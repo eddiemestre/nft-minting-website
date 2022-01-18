@@ -14,7 +14,7 @@ export const Btn = styled.button`
   
   color: white;
   padding: 20px;
-  width: 200px;
+  width: 250px;
   height: 5px;
   border-radius: 10px;
   font-size: 18px;

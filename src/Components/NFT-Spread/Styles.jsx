@@ -10,7 +10,7 @@ export const Glow = styled.nav`
 `;
 
 
-export const Left = styled.nav`
+export const Left = styled.div`
     width: 446px;
     height: 446px;
     border: 1px solid rgba(255, 255, 255, 1);
@@ -22,7 +22,7 @@ export const Left = styled.nav`
     position: absolute;
 `;
 
-export const Middle = styled.nav`
+export const Middle = styled.div`
     width: 446px;
     height: 446px;
     border: 1px solid rgba(255, 255, 255, 1);
@@ -34,7 +34,7 @@ export const Middle = styled.nav`
     background: black;
 `;
 
-export const Top = styled.nav`
+export const Top = styled.div`
     width: 446px;
     height: 446px;
     border: 1px solid rgba(255, 255, 255, 1);
@@ -44,3 +44,15 @@ export const Top = styled.nav`
     z-index: 7;
     background: black;
 `;
+
+export const Loader = styled.div`
+  position: absolute;
+  display: flex;
+  left: 25%;
+  top: 25%;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 50%;
+  color: white;
+`

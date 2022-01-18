@@ -50,7 +50,7 @@ export const Btn = styled.nav`
   /* background-color: blue; */
   margin: 0 auto;
   width: 50%;
-  left: 9%;
+  left: 6%;
   @media screen and (max-width: 768px) {
     display: none;
   }

@@ -147,7 +147,8 @@ const useUserAuthentication = () => {
     currentAccount,
     truncateAd,
     connectWallet,
-    connectedAccount
+    connectedAccount,
+    checkIfWalletIsConnected
   };
 };
 
